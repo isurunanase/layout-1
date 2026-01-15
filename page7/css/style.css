@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+html,body{
+    height: 100%;
+}
+
+h1, p{
+    margin:0
+}
+.wrapper{
+    height: 100%;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+.page7{
+    width: 393px;
+    height: 852px;
+    background-color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center
+}
+.page7 .logo{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    position: fixed; /* 固定位置 */
+    top: 10px;       /* 距離頂部 10px (可調整) */
+    left: 37%;      /* 距離左側 10px (可調整) */
+    z-index: 1000;   /* 確保在其他內容之上 */
+    width: 100px;    /* Logo 寬度 (可調整) */
+
+}
+
+.page7 .logo img{
+    height: 100%;
+    display: block;
+}
+.page7 .box{
+    width: 341px;
+    height: 389px;
+    vertical-align: center;
+    justify-content: center;
+    background-color:#ACCCE0;
+    }
+
+.page7 .box .title{
+    font-size: 32px;
+    font-weight: 300 bold;
+    color: #fff;
+    text-align:center;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.page7 .box .res{
+    font-size: 20px;
+    font-weight: 300 bold;
+    color: #fff;
+    text-align:center;
+}
+
+.page7 .box .time{
+    font-size: 24px;
+    font-weight: 300 bold;
+    color: #fff;
+    text-align:center;
+}
+
+.page7 .box .title2{
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+    text-align:center;
+}
+
+.page7 .box .btn1{
+    font-size: 18px;
+    padding: 3.8px 26px;
+    background-color: #fff;
+    color: black;
+    border-radius: 11px;
+    margin-left: 50px;
+} 
+
+.page7 .box .btn2{
+    font-size: 18px;
+    padding: 3.8px 26px;
+    background-color: #fff;
+    color: black;
+    border-radius: 11px;
+} 
